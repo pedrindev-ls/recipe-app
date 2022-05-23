@@ -1,7 +1,6 @@
 {
   "name": "recipes-app-test",
   "version": "0.1.0",
-  "homepage": "https://pedrindev-ls.github.io/recipes-app/",
   "private": true,
   "engines": {
     "node": "16"
@@ -43,9 +42,7 @@
     "test-coverage": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx",
-    "lint:styles": "npx stylelint '**/*.css'",
-    "predeploy": "npm run build",
-    "deploy": "recipes-app -d build"
+    "lint:styles": "npx stylelint '**/*.css'"
   },
   "eslintConfig": {
     "extends": "react-app"
