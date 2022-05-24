@@ -1,7 +1,7 @@
 {
   "name": "recipes-app-test",
   "version": "0.1.0",
-  "homepage": "https://pedrindev-ls.github.io/recipe-app/",
+  "homepage": "https://pedrindev-ls.github.io/",
   "private": true,
   "engines": {
     "node": "16"
